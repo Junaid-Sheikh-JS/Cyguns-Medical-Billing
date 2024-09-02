@@ -1,0 +1,263 @@
+@media only screen and (max-width:985px) {
+    .col-md-4 {
+        width: 30%;
+    }
+
+    .col-md-6 {
+        width: 45%;
+    }
+}
+
+
+
+@media only screen and (max-width:690px) {
+    .col-sm-6 {
+        width: 40%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .third {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .third p{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .four .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .four .one-sd{
+        width: 100%;
+    }
+    
+    .four .sec-sd{
+        width: 100%;
+    }
+
+    .six .container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .six p{
+        width: 100%;
+    }
+    
+    .six img{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .eight {
+        grid-row: 1fr;
+        display: inline;
+        /* flex-direction: row; */
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .first .col-lg-9 ul{
+        margin: 0;
+    }
+}
+
+.first{
+    font-family: mysecfont;
+}
+
+.six, .seven, .third, .four, .five{
+    font-family: myfirstfont;
+}
+
+
+
+
+.first-inn {
+    background-image: url(Required-Material/Images/bg.webp);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    padding: 120px;
+}
+
+.first ul{
+    margin-left: 13rem;
+}
+.logo img {
+    width: 129px;
+}
+
+
+#bg-img {
+    width: 250px;
+}
+
+#demo {
+    background: linear-gradient(to right, #079ce3, #16506a);
+    width: 9.9rem;
+    margin-left: 1rem;
+}
+/* fs-5 px-3 py-2 bg-transparent rounded-5 border border-2 border-success text-success " */
+#call{
+    background-color: transparent;
+    padding: 0.7rem;
+    border-radius: 25px;
+    border:2px solid #81d742;
+    color:#64bb2f;
+}
+#call:hover{
+background-color: #64bb2f;
+color: white;
+border: 2px solid white;
+}
+
+#scd {
+    width: 202px;
+    background: linear-gradient(to right, #227184, #64bb2f);
+}
+
+.second {
+    font-size: large;
+    color: white;
+    background-color: #1171a1;
+
+}
+
+.sec-inn img {
+    width: 40px;
+}
+
+.sec-inn p {
+    margin: 0;
+}
+
+
+.third .one-side h2 {
+    color: #1171a1;
+}
+
+.four {
+    background-image: url(Required-Material/Images/physician.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.four .items .item {
+    background-color: #f8f9fae3;
+}
+
+.four form {
+    background-color: #ffffff42;
+}
+
+.four form button {
+
+    background-color: #81d742;
+}
+
+.one-sd {
+    width: 47%;
+}
+
+.sec-sd {
+    width: 49%;
+}
+
+.five img {
+    width: 40px;
+}
+
+.five h3{
+    color: #1971a2;
+}
+
+.five .col-lg-3 {
+    box-shadow: 0px 3px 7px 5px whitesmoke;
+    width: 17rem;
+    padding: 35px;
+}
+
+#last-col {
+    background-color: #1171a1;
+}
+
+#last-col button {
+    color: #91b8d8;
+
+}
+
+.six {
+    background-color: #f1f4f7;
+}
+
+.six h2 {
+    color: #1971a2;
+}
+
+.seven h3 {
+    color: #1971a2;
+
+}
+
+.seven .col-lg-2 {
+    box-shadow: 0px 3px 7px 5px whitesmoke;
+    width: 12rem;
+    padding: 12px;
+    text-align: center;
+    margin: 13px;
+}
+
+.eight {
+    background-color: #f3f5fa;
+}
+
+
+.nine .part-1 {
+    background-color: #01517a;
+}
+
+.nine .r-1 p,
+ul>li {
+    color: #c4bebf;
+}
+
+.part-2 {
+    background-color: #003e5e;
+}
+
+.nine .part-2 p {
+    color: white;
+}
+
+#sub-btn {
+    background: linear-gradient(to right, #227184, #64bb2f);
+}
+
+.nine i{
+    color:#6299b3;
+    border: 1px solid #626b6f;
+}
+
+@font-face {
+    font-family: myfirstfont;
+    src: url('Required-Material/Fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: mysecfont;
+    src: url('Required-Material/Fonts/OpenSans.ttf');
+}
